@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="profile-details.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="left-nav">
+        <i class="fas fa-bars" id="fa-bars"></i>
+        <i class="fas fa-times" id="fa-times"></i>
+        <div class="navbar-brand">
+          <a href="index.html"><img src="Images/Logo.svg" alt="logo" /></a>
+        </div>
+
+        <div class="nav-links-left">
+          <a class="nav-link" href="">Home</a>
+          <a class="nav-link" href="">Tv Shows</a>
+          <a class="nav-link" href="">Movies</a>
+          <a class="nav-link" href="">Games</a>
+          <a class="nav-link" href="">New & Popular</a>
+          <a class="nav-link" href="">My List</a>
+        </div>
+      </div>
+      <div class="nav-link-right">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bell"></i>
+        <img
+          class="profile-icon"
+          src="Images/Profile-Img.png"
+          alt="profile img"
+        />
+      </div>
+    </div>
+
+    <div class="rpofile-details-container">
+      <div class="profile-header">
+        <div class="profile-avatar">
+          <img src="Images/Profile-Img.png" alt="" />
+        </div>
+
+        <div class="profile-info">
+          <h1 class="profile-name">Fuzail</h1>
+          <p class="profile-email">testmail123@gmail.com</p>
+
+          <div class="membership-info">
+            <span class="membership-badge">Premium</span>
+            <span class="membership-details">4K + HDR</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile-sections">
+        <!-- Account settings  -->
+        <div class="profile-section">
+          <h2>Account Settings</h2>
+          <div class="settings-grid">
+            <!-- Card -->
+
+            <div class="setting-items">
+              <div class="setting-header">
+                <h3>Membership & Billing</h3>
+                <button class="btn-change">Change Plan</button>
+              </div>
+              <p class="setting-details">Premium Plan 199/month</p>
+              <p class="setting-details">Next billing date: July 05, 2025</p>
+            </div>
+
+            <!-- Card -->
+
+            <div class="setting-items">
+              <div class="setting-header">
+                <h3>Profile & parental control</h3>
+                <button class="btn-change">Manage</button>
+              </div>
+              <p class="setting-details">Profile 1</p>
+              <p class="setting-details">All maturity rating</p>
+            </div>
+
+            <!-- Card -->
+
+            <div class="setting-items">
+              <div class="setting-header">
+                <h3>Privacy & Security</h3>
+                <button class="btn-change">Change Password</button>
+              </div>
+              <p class="setting-details">*********</p>
+              <p class="setting-details">Two factor authentication</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
